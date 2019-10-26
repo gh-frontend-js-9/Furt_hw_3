@@ -107,6 +107,7 @@
 .unlimited {
 	font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont;
 	font-size: 19px;
+	margin: 30px;
 
 }
 .revolutionary-editor-section h2 {
@@ -117,16 +118,15 @@
 
 }
 .aenean-cursus{
-	margin: 40px;
+	margin: 10px 40px;
 	max-width: 800px;
-	width: 100%;
 	font-family: ﻿SourceSansPro-Regular, ﻿AdobeInvisFont;
 	font-size: 19px;
 	color: rgba(99, 92, 115, 255);
 }
 
 .here-is-section {
-	background-color: #eceded;
+	background-color: #f4f4f4;
 }
 
 .here-is-block-left {
@@ -134,11 +134,10 @@
 	width: 45%;
 }
 .here-is-block-left h4 {
-	font-weight: 300;            /*?????????????????*/
+	font-weight: 500;            /*?????????????????*/
 	font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont;
 	font-size: 19px;
 	color: rgba(50, 50, 50, 255);
-
 }
 .here-is-block-left p{
 	padding: 30px 0px;
@@ -150,6 +149,7 @@
 	padding-left: 130px;
 }
 .creatred {
+	margin-top: 60px;
 	background: url(img/icon-1X.png) no-repeat;
 }
 .incredibly{
@@ -164,6 +164,7 @@
 
 
 .here-is-block-right {
+	overflow-x: hidden;
 	float: right;
 	width: 45%;
 }
@@ -174,5 +175,220 @@
 	font-weight: 600;
 }
 .img-code-bg{
-	background: url(img/BG-2.png);
+	padding: 83px 150px;
+	background: url(img/BG-2.png)no-repeat;
+}
+
+.steven-strange-section {
+	width: 100%;
+}
+.center-block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.steven-strange-block{
+	margin: 100px 10px 50px;
+	background: url(img/usirpic.png) no-repeat;
+}
+.steven-strange-head{
+	font-family: ﻿Montserrat-Bold, ﻿AdobeInvisFont;
+	font-size: 24pt;
+	color: rgba(99, 92, 115, 255);
+	padding: 20px 100px 5px;
+	
+}
+.doctors{
+	padding-left: 100px;
+	font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont;
+	font-size: 16pt;
+	color: rgba(141, 129, 172, 255);
+}
+.pixelbuddha-row{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.suspendisse {
+	max-width: 900px;
+	margin-bottom: 30px;
+	font-family: ﻿SourceSansPro-Regular, ﻿AdobeInvisFont;
+	font-size: 20pt;
+	color: black;
+	text-align: center;
+}
+.arrow-l {
+	float: left;
+}
+.suspendisse span {
+	color: rgba(141, 129, 172, 255);
+}
+.date{
+	font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont;
+	font-size: 16pt;
+	color: rgba(141, 129, 172, 255);
+	margin-bottom: 60px;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 60px;
+
+}
+.git-hub{
+	padding: 5px 60px;
+	background-color: #f3e1e2;
+	font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, ﻿Myriad-Roman;
+	font-size: 25px;
+	color: rgba(0, 0, 0, 255);
+	text-align: center;
+	    border: none;
+	    margin: 0px 25px 5px 0px;;
+}
+.twitter{
+	font-family: 'Material Icons';
+	color: rgba(255, 255, 255, 255);
+	padding: 5px 60px;
+	background-color: #f3e1e2;
+	font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, ﻿Myriad-Roman;
+	font-size: 25px;
+	background-color: #4fa3c6;
+	 border: none;
+	 margin: 0px 25px 5px 0px;;
+
+}
+.facebook{
+	color: rgba(255, 255, 255, 255);
+	padding: 5px 60px;
+	background-color: #f3e1e2;
+	font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, ﻿Myriad-Roman;
+	font-size: 25px;
+	background-color: #606599;
+	 border: none;
+}
+
+.button p {
+	text-align: center;
+	font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, ﻿Myriad-Roman;
+	font-size: 19px;
+	color: rgba(132, 142, 151, 255);
+
+}
+
+
+.people-are-section{
+	background-image: url(img/BG-3.png); 
+}
+.people-are-head{
+	font-family: ﻿Montserrat-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, ﻿Myriad-Roman;
+	font-size: 35.21437pt;
+	color: rgba(255, 255, 255, 255);
+	text-align: center;
+	font-weight: bold;
+	padding: 100px 10px 100px;
+}
+.people-are-all-block {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	padding-bottom: 60px;
+}
+.people-are-block{
+	font-family: ﻿SourceSansPro-BoldIt, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, ﻿Myriad-Roman;
+	font-size: 19px;
+	color: rgba(255, 255, 255, 255);
+	text-align: center;
+	width: 33%;
+
+}
+.people-are-block img {
+	margin-bottom: 19px;
+}
+.people-are-block p {
+	margin: 0px 20px 20px 0px;
+}
+
+.line {
+	margin-top: 80px;
+	height: 20px;
+	width: 100%;
+	background: url(img/line.png) center no-repeat;
+}
+
+
+.fork-subscription-section{
+	background-image: url(img/base.png);
+
+}
+.fork-subscription-head{
+	font-family: ﻿Montserrat-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, ﻿Myriad-Roman;
+	font-size: 35.21437pt;
+	color: rgba(255, 255, 255, 255);
+	text-align: center;
+	font-weight: bold;
+	padding: 100px 10px 100px;
+}
+.fork-subscription-all-block {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 60px;
+
+}
+.price-block{
+	text-transform: uppercase;
+	max-width: 350px;
+	
+	height: 100%;
+	margin: 10px 5px 100px;
+	box-sizing:border-box;
+}
+.price-head {
+
+	padding: 30px;
+	background-color: rgba(255, 255, 224, 0.3);
+	font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, ﻿Myriad-Roman;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 255);
+	text-align: center;
+}
+.price-body{
+	background-color: rgba(255, 255, 224, 0.2);
+}
+.price {
+	font-family: ﻿Montserrat-Bold, ﻿Montserrat-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, ﻿Myriad-Roman;
+	font-size: 30px;
+	color: rgba(255, 255, 255, 255);
+	text-align: center;
+	padding: 30px 75px;
+	font-weight: bold;
+}
+.month {
+	font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, ﻿Myriad-Roman;
+	font-size: 10px;
+	color: rgba(255, 255, 255, 255);
+	text-align: center;
+	background: url(img/line-price.png) bottom no-repeat; 
+	padding-bottom: 35px;
+}
+.license{
+	max-width: 200px;
+	padding: 20px 20px 40px;
+	font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, ﻿Myriad-Roman;
+	font-size: 15px;
+	color: rgba(255, 255, 255, 255);
+	text-align: center;
+}
+.purchase {
+	margin: 20px 0px 80px 70px;
+	font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, ﻿Myriad-Roman;
+	font-size: 15px;
+	color: rgba(255, 255, 255, 255);
+	text-align: center;
+	padding: 5px 20px;
+	background-color: rgba(255, 255, 224, 0.3);
+	border-radius: 20px;
+	border: none;
+	text-transform: uppercase;
+
 }
