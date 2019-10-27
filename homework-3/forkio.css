@@ -624,6 +624,22 @@
  	.here-is-block-left {
     width: 100%;
 	}
+	.button {
+		flex-direction: column;
+		align-items: center;
+	}
+	.people-are-all-block{
+		flex-direction: column;
+	}
+	.people-are-block{
+		width: 100%;
+	}
+	.new-fom-blog-all-block{
+		flex-direction: column;
+	}
+	.footer-flex-block-all{
+		flex-direction: column;
+	}
 
 
 
