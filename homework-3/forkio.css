@@ -605,8 +605,29 @@
 	}
 	.wrapper {
 	margin: 0 auto;
-	max-width: 450px;
+	max-width: 400px;
 	width: 100%;
 	position: relative;
-}
+	}
+	.main-button{
+	margin: 0px;
+	}
+
+ 	.revolutionary-editor-section h2{
+ 		padding: 0px;
+ 		
+ 	}
+ 	.here-is-block-right{
+ 		float: none;
+ 		overflow: visible;
+ 	}
+ 	.here-is-block-left {
+    width: 100%;
+	}
+
+
+
+
+
+
 }
