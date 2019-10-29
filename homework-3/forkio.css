@@ -253,6 +253,7 @@
 	width: 45%;
 	overflow: hidden;
 }
+
 @media (max-width: 900px) {
 	.here-is-block-right{
 		display: none;
@@ -263,6 +264,11 @@
 	font-size: 45px;
 	color: rgba(141, 129, 172, 255);
 	font-weight: 600;
+}
+@media (max-width: 1000px) {
+	.code{
+		font-size: 30px;
+	}
 }
 .img-code-bg{
 	padding: 85px 0px 77px 75px;
